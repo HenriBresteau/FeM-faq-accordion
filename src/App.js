@@ -1,9 +1,10 @@
-import "./App.css";
+import { GlobalStyle } from "./index.styles";
 
 function App() {
   return (
     <div className="App">
-      Hello world
+      <GlobalStyle />
+      Coucou
     </div>
   );
 }
